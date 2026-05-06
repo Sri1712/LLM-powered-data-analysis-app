@@ -70,7 +70,7 @@ if st.session_state.df is not None:
 
 else:
     #No data uploaded state
-    col1, col2, col3 = st.columns(1,2,1)
+    col1, col2, col3 = st.columns([1,2,1])
     with col2:
         st.info("👈 Please upload a CSV file to start")
         
