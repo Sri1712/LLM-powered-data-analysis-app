@@ -1,23 +1,55 @@
-# Build with AI: LLM-Powered Data Analysis App Using Python and Streamlit
-This is the repository for the LinkedIn Learning course `cBuild with AI: LLM-Powered Data Analysis App Using Python and Streamlit`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Build with AI: LLM-Powered Data Analysis App (Python + Streamlit)
 
-![course-name-alt-text][lil-thumbnail-url] 
+This repository contains my implementation of the LinkedIn Learning course:  
+**“Build with AI: LLM-Powered Data Analysis App Using Python and Streamlit”** by Maggie Ma.
 
-## Course Description
+## 📌 Overview
 
-<p>In this quick, hands-on course, learn to build a lightweight, AI-powered data analysis tool using Python, Streamlit, and the OpenAI API. Instructor Maggie Ma shows you how to upload a dataset and ask questions in plain English—your app will convert the input into code (Python or SQL), run it, and return useful insights. Perfect for technical teams looking to support non-technical stakeholders, this course takes you through building and testing a natural language interface for structured data. No prior experience with LLMs is needed—just Python and a bit of pandas—and you’ll finish the course with a working prototype you can expand or deploy internally.</p>
-<p>This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time—all while using a tool that you’ll likely encounter in the workplace. Check out “GitHub Codespaces setup" with this course to learn how to get started.</p>
+This project demonstrates how to build a lightweight AI-powered data analysis application that allows users to:
 
-## Instructor
+- Upload datasets (CSV, etc.)
+- Ask questions in natural language
+- Automatically generate Python or SQL code using an LLM
+- Execute the code and return insights
 
-Maggie Ma
+The goal is to bridge the gap between technical and non-technical users by enabling intuitive data exploration.
 
+---
 
-Geospatial Data Scientist | Founder | Tech Content Creator
+## 🚀 Features
 
+- 📂 Upload structured datasets  
+- 💬 Natural language query interface  
+- 🤖 LLM-powered code generation (Python / SQL)  
+- 📊 Automated data analysis and insights  
+- ⚡ Interactive UI built with Streamlit  
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+---
 
-[lil-course-url]: https://www.linkedin.com/learning/build-with-ai-llm-powered-data-analysis-app-with-python-and-streamlit
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQHwJoNyLlzdmA/learning-public-crop_675_1200/B4EZk1wd5hHgAY-/0/1757543522591?e=2147483647&v=beta&t=shxtUvktyNL4jb868n9ML8mYwg9g6kOvc4Zm0RctZJI
+## 🛠️ Tech Stack
 
+- Python  
+- Streamlit  
+- Pandas  
+- OpenAI API  
+- (Optional) SQL support  
+
+---
+
+## 🧠 How It Works
+
+1. User uploads a dataset  
+2. User enters a question in plain English  
+3. The app sends the query + dataset context to an LLM  
+4. The LLM generates executable code  
+5. The app runs the code securely  
+6. Results are displayed in the UI  
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/llm-data-analysis-app.git
+cd llm-data-analysis-app
+pip install -r requirements.txt
